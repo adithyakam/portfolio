@@ -1,0 +1,109 @@
+a:link{
+    color:black;
+    text-decoration: none;
+
+
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+body{
+    margin:0; 
+    padding:0;
+}
+#home
+{
+    background-color:firebrick;
+    padding:10%;
+    text-align:center;
+    color:white;
+
+}
+
+.home-content
+{
+    width: 100%;
+   
+    padding:5%;
+    box-sizing: border-box;
+    font-size: 2rem;
+
+}
+.btn-home
+{
+    text-decoration: none;
+    color:white;
+    border: 5px solid white;
+    margin:2rem;
+    padding:2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.home-content span{
+    color: orange;
+    text-transform: uppercase
+}
+
+/*floater*/
+
+.banner
+{float:left;
+    height:50px;
+    width: 50px;
+    
+
+}
+      
+.navigation
+{
+    margin:0;
+    padding: 0;
+}
+
+
+.navigation ul
+{
+    float:right;
+    display: block;
+    margin:2rem 0;
+    padding:0;
+    text-transform: uppercase;
+}
+.navigation li{
+    display: inline;
+    margin-left:1.5rem;
+    padding: 1.5rem;
+}
+
+.header-content::after
+{
+    content:"";
+    
+    overflow:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
