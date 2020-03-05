@@ -5,49 +5,41 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css\styles.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
-<body >
-<!--header-->
-
+<body>
 <header >
-    <nav class="w-75 mx-auto mt-2 navbar-fixed-top" style="height: 3rem;">
-    <div class=" mx-auto mt-auto d-flex justify-content-between " >
-    <div >
-       <img src="https://img.icons8.com/ios/50/000000/user.png"> ADI
-    </div>
-    <div > 
-        <ul Class="d-flex justify-content-between mt-1 mx-auto "  style="list-style: none;">
-            <li class='mx-2 p-2'><a href="#home">Home</a></li>
-            <li class='mx-2 p-2'><a href="#Skills">Skills</a></li>
-            <li class='mx-2 p-2'><a href="#projects">projects</a></li>
-            <li class='mx-2 p-2'><a href="#About">contact</a></li>
-        </ul>
+    <nav class=" mx-auto w-75 mt-2 navbar-fixed-top" style="height: 3rem;">
+        <div class=" mx-auto mt-auto d-flex justify-content-between " >
+            <div >
+            <img src="https://img.icons8.com/ios/50/000000/user.png"> ADI
+            </div>
+            <div class=""> 
+                <ul Class="d-flex justify-content-between ml-auto "  style="list-style: none;">
+                    <li class='mx-2 p-2'><a href="#home">Home</a></li>
+                    <li class='mx-2 p-2'><a href="#Skills">Skills</a></li>
+                    <li class='mx-2 p-2'><a href="#projects">projects</a></li>
+                    <li class='mx-2 p-2'><a href="#About">contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-</div>
 </header>
 
 <!--home-content -->
 
 <section id="home">
-<div class="contain">
- <div class="text" >
-       <h1>Hi, I'am <span>Adithya N Kamath</span><h1>
-        <p>
-            Welcome to my PortFolio
-        </p>        
     
- </div>
- <button>Scroll down</button>
-</div>
 </section>
 
 <!--Skills-->
 <section id="skills" >
-    <div class="d-flex flex-column align-items-center flex-nowrap">
+    <!-- <div class="d-flex flex-column  align-items-center flex-nowrap">
            <h1>Skills</h1>
-           <div class="d-flex justify-content-between flex-wrap">
-               <div class="d-flex flex-column align-items-center coo">
+           <div class="d-flex justify-content-between container flex-wrap">
+               <div class="d-flex flex-column container align-items-center coo">
                    <h1>Frontend</h1>
                    <p>HTML</p>
                    <p>CSS</p>
@@ -55,83 +47,66 @@
                    <p>JavaScript</p>
                    
                </div>
-               <div class="d-flex flex-column align-items-center coo"> 
+               <div class="d-flex flex-column container align-items-center coo"> 
                 <h1>Backend</h1>
                 <p>Java</p>
                 <p>NodeJS</p>
                 <p>Express</p>
                </div>
-                <div class="d-flex flex-column align-items-center coo">
+                <div class="d-flex flex-column container align-items-center coo">
                 <h1>Database</h1>
                 <p>SQL</p>
                 <p>MySQL</p>
                 <p>PostGress</p>
                 </div>
-                <div class="d-flex flex-column align-items-center coo"> 
+                <div class="d-flex flex-column container align-items-center coo"> 
                 <h1>Package Manager</h1>
                  <p>NPM</p>
                 </div>
-                <div class="d-flex flex-column align-items-center coo">
+                <div class="d-flex flex-column container align-items-center coo">
                     <h1>Version Control</h1>
                     <p>GitHub</p>
                     <p>Git</p>
                     </div>
-                
            </div>
-
-    </div>
+    </div> -->
    </section>
 
    <!--projects-->
-
-   <section id="projects" class="">
-    <div class="d-flex flex-column align-items-center flex-nowrap">
+   <!-- <section id="projects" class="container">
+    <div class="d-flex flex-column align-items-center  flex-nowrap">
             <h1>projects</h1>
+
             <div class="d-flex justify-content-between flex-wrap">
-                <div class="project d-flex flex-column align-items-start">
+
+                <div class="project d-flex flex-column container w-50 p-2 m-1 text-center bg-warning align-items-start">
                     <div class="mb-auto">
-                    <h1>Expense App</h1>
-                    <p>TThis app uses kdfkfl
-                        asdfjalksdjkhdsknfahjfkdkjdfjkakd
-                        asdfjalksdsdfadasfkasdjfljadfjila
-                        asdfjalksdsdfadsfafasdfasdfasdf
-                        sdfadfadfasdjhaskfhihasfhkaadsfafasdfasdfa
-                        sha384-ggOyR0iXCbMQv3Xipma34MDdasffffffffffffffadsfasdfafafa
-                        dasdfadfhanmfhajhfj
-                        ksjhfahkjahdkj
-                        asdafjklajdlfa
-                        adsjfkjasdkfaksdfh
-                        afdsahsdkfhkdahfskjhadi
-                    </p>
+                    <h1>Football website</h1>
+                <p class="w-50 bg-success container text-center ">This is a Football website used to get score ,matches ,player-details,fixtures.
+                    This is made by HTML,CSS,vanilla JS 
+                 </p>
               </div>
-              <div>
-                <button>live</button>
-                <button>Code</button>
+              <div class="w-75 bg-success container text-center ">
+                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Live</a></button>
+                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Code</a></button>
             </div>
                 </div>
-                <div class="project d-flex flex-column align-items-start">
-                    <div class="mb-auto">
-                    <h1>Expense App</h1>
-                    <p>TThis app uses kdfkfl
-                        asdfjalksd
-                        asdfjalksdsdfa
-                        asdfjalksdsdfadsfa
-                        sdfadfadfasdjhaskfhihasfhka
-                        sha384-ggOyR0iXCbMQv3Xipma34MD
-                    </p> 
-                </div>
-                    <div>
-                        <button>live</button>
-                        <button>Code</button>
-                    </div>
-                </div>
 
-             
                 
+                <div class="project d-flex flex-column container w-50 text-center bg-warning align-items-start">
+                    <div class="mb-auto">
+                    <h1>Football website</h1>
+                <p class="w-50 bg-success container text-center ">This is a Football website used to get score ,matches ,player-details,fixtures.
+                    This is made by HTML,CSS,vanilla JS 
+                 </p>
+              </div>
+              <div class="w-75 bg-success container text-center ">
+                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Live</a></button>
+                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Code</a></button>
             </div>
-
-
-    </div>
+        </div>
+            </div>
+    </div> -->
    </section>
 
    <!--About-->
