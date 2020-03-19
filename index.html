@@ -11,28 +11,56 @@
 
 <body>
 <header >
-    <nav class=" mx-auto w-75 mt-2 navbar-fixed-top" style="height: 3rem;">
-        <div class=" mx-auto mt-auto d-flex justify-content-between " >
-            <div >
-            <img src="https://img.icons8.com/ios/50/000000/user.png"> ADI
-            </div>
-            <div class=""> 
-                <ul Class="d-flex justify-content-between ml-auto "  style="list-style: none;">
-                    <li class='mx-2 p-2'><a href="#home">Home</a></li>
-                    <li class='mx-2 p-2'><a href="#Skills">Skills</a></li>
-                    <li class='mx-2 p-2'><a href="#projects">projects</a></li>
-                    <li class='mx-2 p-2'><a href="#About">contact</a></li>
-                </ul>
-            </div>
+    <div >
+    <div class="container">
+       
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">
+            <img src="./pics/user.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Adithya
+          </a>       
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a></li>
+            <li class='nav-item'><a  class="nav-link" href="#Skills">Skills </a></li>
+            <li class='nav-item'><a class="nav-link" href="#projects">projects </a></li>
+            <li class='nav-item'><a class="nav-link" href="#About">contact </a></li>
+          </ul>
         </div>
-    </nav>
+      </nav>
+    </div>
+    
 </header>
 
 <!--home-content -->
 
-<section id="home">
+<div id="home">
+    <div class="overlay">
+        <div class="container">
+        <div class="txt">
+            <h1>Hi I'm Adithya</h1>
+            <p>Welcome all to My web portfolio</p>
+        </div>
+    </div>
+    </div>
     
-</section>
+</div>
+<!-- <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Your Name</span>
+        <br />
+        I'm the Unknown Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div> -->
 
 <!--Skills-->
 <section id="skills" >
@@ -70,7 +98,41 @@
                     </div>
            </div>
     </div> -->
-   </section>
+<div class="container text-center ">
+    <H1>SKills</H1>
+    <div class="d-flex justify-content-between container flex-wrap my-2 w-100 flex-wrap">
+        <div class="d-flex flex-column  mx-auto align-items-center">
+            <h1>Frontend</h1>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>React</p><p>bootstrap</p>
+            <p>JavaScript</p>
+        </div>
+        <div class="d-flex flex-column  mx-auto align-items-center coo"> 
+         <h1>Backend</h1>
+         <p>Java</p>
+         <p>NodeJS</p>
+         <p>Express</p>
+        </div>
+         <div class="d-flex flex-column  mx-auto align-items-center coo">
+         <h1>Database</h1>
+         <p>SQL</p>
+         <p>MySQL</p>
+         <p>PostGress</p>
+         </div>
+         <div class="d-flex flex-column  mx-auto align-items-center coo"> 
+         <h1>Package Manager</h1>
+          <p>NPM</p>
+         </div>
+         <div class="d-flex flex-column mx-auto align-items-center coo">
+             <h1>Version Control</h1>
+             <p>GitHub</p>
+             <p>Git</p>
+             </div>
+    </div>
+</div>  
+
+</section>
 
    <!--projects-->
    <!-- <section id="projects" class="container">
@@ -107,7 +169,17 @@
         </div>
             </div>
     </div> -->
-   </section>
+<div class="container">
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</div>  
+</section>
 
    <!--About-->
    <section id="About" class="">
@@ -120,6 +192,11 @@
 
 
 <script src="js\style.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
 
 </body>
 

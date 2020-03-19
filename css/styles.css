@@ -4,9 +4,31 @@ html {
   margin: 0;
   box-sizing: border-box;
   background-color: #f5f6fa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "sans-serif";
   scroll-behavior: smooth;
+  text-decoration: none;
 }
+/* #hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: black;
+  font-weight: 400;
+  color: white;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(/pics/markus-spiske-hvSr_CVecVI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+} */
+
 .text {
   color: #f5f6fa;
 }
@@ -17,21 +39,40 @@ header {
   top: 0;
   z-index: 1;
 }
-section:not(:first-of-type) {
+section {
+  position: relative;
   height: auto;
   margin: 1.5rem auto;
   padding: 0.5rem;
-}
-
-section:first-of-type {
-  height: 50vh;
+  position: relative;
   width: 100vw;
 }
 
 #home {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   background-image: url(/pics/markus-spiske-hvSr_CVecVI-unsplash.jpg);
   background-color: tomato;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
