@@ -4,30 +4,36 @@ html {
   margin: 0;
   box-sizing: border-box;
   background-color: #f5f6fa;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  text-align: center;
+  text-decoration: none;
+  font-size: 62.5%;
+}
+
+.navbar {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.card {
+  width: 16rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
   text-decoration: none;
 }
-/* #hero {
-  min-height: 100vh;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  border-bottom: 0px;
-  background: black;
-  font-weight: 400;
-  color: white;
-  padding: 0rem 5.6rem;
-  margin-bottom: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  background-image: url(/pics/markus-spiske-hvSr_CVecVI-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-} */
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
 
 .text {
   color: #f5f6fa;
@@ -46,9 +52,11 @@ section {
   padding: 0.5rem;
   position: relative;
   width: 100vw;
+  padding: 5rem 0rem;
 }
 
 #home {
+  background-repeat: no-repeat;
   min-height: 100vh;
   height: 100vh;
   display: flex;
@@ -56,8 +64,13 @@ section {
   background-image: url(/pics/markus-spiske-hvSr_CVecVI-unsplash.jpg);
   background-color: tomato;
   background-position: center center;
-  background-repeat: no-repeat;
+  font-weight: 800;
+  font-size: 2.4rem;
+  font-style: bold;
   background-size: cover;
+}
+.heading {
+  font-size: 5.2rem;
 }
 
 .overlay {
@@ -69,10 +82,39 @@ section {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
+p {
+  font-size: 2rem;
+}
 
 .txt {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.buton {
+  background-color: #007bff;
+  font-size: 4.2rem;
+  margin-top: 2.2rem;
+  color: #f5f6fa;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.buton:hover {
+  background-color: #f5f6fa;
+  color: #007bff;
+}
+
+.sub-container {
+  margin-top: 2rem;
+}
+
+.contain {
+  /* border: 2px solid black; */
+  padding: 1.5rem;
+  border-radius: 10px;
 }

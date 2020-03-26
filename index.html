@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css\styles.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -12,14 +12,15 @@
 <body>
 <header >
     <div >
-    <div class="container">
-       
+    <div class="container">   
     <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">
-            <img src="./pics/user.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="./pics/user.svg" width="30" height="30" class="d-inline-block align-center" alt="logo">
             Adithya
           </a>       
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <button class="navbar-toggler" type="button" 
+           data-toggle="collapse" data-target="#navbarSupportedContent" 
+           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -33,7 +34,7 @@
         </div>
       </nav>
     </div>
-    
+    </div>
 </header>
 
 <!--home-content -->
@@ -42,90 +43,51 @@
     <div class="overlay">
         <div class="container">
         <div class="txt">
-            <h1>Hi I'm Adithya</h1>
+            <h1 class="heading">Hi I'm Adithya</h1>
             <p>Welcome all to My web portfolio</p>
+             <p  class="load-hidden">
+          <a class="buton" href="#about">Know more</a>
+        </p>
         </div>
+       
     </div>
     </div>
     
 </div>
-<!-- <div id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title" class="load-hidden">
-        Hi, my name is <span class="text-color-main">Your Name</span>
-        <br />
-        I'm the Unknown Developer.
-      </h1>
-      <p class="hero-cta" class="load-hidden">
-        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-      </p>
-    </div>
-  </div> -->
+
 
 <!--Skills-->
 <section id="skills" >
-    <!-- <div class="d-flex flex-column  align-items-center flex-nowrap">
-           <h1>Skills</h1>
-           <div class="d-flex justify-content-between container flex-wrap">
-               <div class="d-flex flex-column container align-items-center coo">
-                   <h1>Frontend</h1>
-                   <p>HTML</p>
-                   <p>CSS</p>
-                   <p>React</p><p>bootstrap</p>
-                   <p>JavaScript</p>
-                   
-               </div>
-               <div class="d-flex flex-column container align-items-center coo"> 
-                <h1>Backend</h1>
-                <p>Java</p>
-                <p>NodeJS</p>
-                <p>Express</p>
-               </div>
-                <div class="d-flex flex-column container align-items-center coo">
-                <h1>Database</h1>
-                <p>SQL</p>
-                <p>MySQL</p>
-                <p>PostGress</p>
-                </div>
-                <div class="d-flex flex-column container align-items-center coo"> 
-                <h1>Package Manager</h1>
-                 <p>NPM</p>
-                </div>
-                <div class="d-flex flex-column container align-items-center coo">
-                    <h1>Version Control</h1>
-                    <p>GitHub</p>
-                    <p>Git</p>
-                    </div>
-           </div>
-    </div> -->
-<div class="container text-center ">
-    <H1>SKills</H1>
-    <div class="d-flex justify-content-between container flex-wrap my-2 w-100 flex-wrap">
-        <div class="d-flex flex-column  mx-auto align-items-center">
-            <h1>Frontend</h1>
+   
+<div class="container text-center load-hidden">
+    <H1 class="heading"> Skills</H1>
+    <div class="d-flex justify-content-between container flex-wrap my-2 w-100 flex-wrap sub-container">
+        <div class="d-flex flex-column  mx-auto align-items-center load-hidden contain ">
+            <h1 class="sub-head">Frontend</h1>
             <p>HTML</p>
             <p>CSS</p>
             <p>React</p><p>bootstrap</p>
             <p>JavaScript</p>
         </div>
-        <div class="d-flex flex-column  mx-auto align-items-center coo"> 
-         <h1>Backend</h1>
+        <div class="d-flex flex-column  mx-auto align-items-center coo load-hidden contain"> 
+         <h1 class="sub-head">Backend</h1>
          <p>Java</p>
          <p>NodeJS</p>
          <p>Express</p>
         </div>
-         <div class="d-flex flex-column  mx-auto align-items-center coo">
-         <h1>Database</h1>
+         <div class="d-flex flex-column  mx-auto align-items-center coo load-hidden contain">
+         <h1 class="sub-head">Database</h1>
          <p>SQL</p>
          <p>MySQL</p>
          <p>PostGress</p>
          </div>
-         <div class="d-flex flex-column  mx-auto align-items-center coo"> 
-         <h1>Package Manager</h1>
+         <div class="d-flex flex-column  mx-auto align-items-center contain"> 
+         <h1 class="sub-head">Package Manager</h1>
           <p>NPM</p>
          </div>
-         <div class="d-flex flex-column mx-auto align-items-center coo">
-             <h1>Version Control</h1>
+         <div class="d-flex flex-column mx-auto align-items-center contain">
+            <h1 class="sub-head">Version Control</h1>
+
              <p>GitHub</p>
              <p>Git</p>
              </div>
@@ -133,52 +95,48 @@
 </div>  
 
 </section>
-
+q
    <!--projects-->
-   <!-- <section id="projects" class="container">
+    <section id="projects" class="container">
     <div class="d-flex flex-column align-items-center  flex-nowrap">
-            <h1>projects</h1>
+        <h1 class="heading">projects</h1>
 
-            <div class="d-flex justify-content-between flex-wrap">
+            <div class="d-flex justify-content-between flex-wrap sub-container">
+                <div class="">
+                    <div class="card" >
+                        <img src="./pics/unsplash-home.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Football website</h5>
+                            <p class="card-text">This is a Football website used to get score ,matches ,player-details,fixtures.
+                                This is made by HTML,CSS,vanilla JS kjhkjhhkhkkh k hkhkkh kjhkkhk kjh k hkh k hkkhk khk hkjhkh k hkhk  hkhkh</p>
+                            <button ><a class="card-link" href="https://football-adithya.netlify.com/" target="blank" > Live</a></button>
+                            <button ><a class="card-link"href="https://football-adithya.netlify.com/" target="blank" > Code</a></button>
 
-                <div class="project d-flex flex-column container w-50 p-2 m-1 text-center bg-warning align-items-start">
-                    <div class="mb-auto">
-                    <h1>Football website</h1>
-                <p class="w-50 bg-success container text-center ">This is a Football website used to get score ,matches ,player-details,fixtures.
-                    This is made by HTML,CSS,vanilla JS 
-                 </p>
-              </div>
-              <div class="w-75 bg-success container text-center ">
-                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Live</a></button>
-                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Code</a></button>
-            </div>
+                          </div>
+                      </div>
                 </div>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                        <div class="card">
+                          <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" alt="Vans">
+                          <div class="card-body">
+                            <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
+                            <p class="card-text">
+                              The Vans All-Weather MTE Collection features footwear and apparel designed to withstand the elements whilst still looking cool.             </p>
+                  
+                               <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                 
+            </div>
+    </div> 
 
-                
-                <div class="project d-flex flex-column container w-50 text-center bg-warning align-items-start">
-                    <div class="mb-auto">
-                    <h1>Football website</h1>
-                <p class="w-50 bg-success container text-center ">This is a Football website used to get score ,matches ,player-details,fixtures.
-                    This is made by HTML,CSS,vanilla JS 
-                 </p>
-              </div>
-              <div class="w-75 bg-success container text-center ">
-                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Live</a></button>
-                <button ><a href="https://football-adithya.netlify.com/" target="blank" > Code</a></button>
-            </div>
-        </div>
-            </div>
-    </div> -->
-<div class="container">
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-</div>  
 </section>
 
    <!--About-->
