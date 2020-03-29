@@ -3,7 +3,7 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'adithyadragon@gmail.com';
 
-<?php $name = $_POST['name'];
+ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
@@ -12,7 +12,7 @@ $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
-?>
+
 // if($_POST) {
 
 //     $name = trim(stripslashes($_POST['name']));
