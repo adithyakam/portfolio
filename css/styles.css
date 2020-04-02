@@ -43,7 +43,7 @@ html {
   scroll-behavior: smooth;
   text-align: center;
   text-decoration: none;
-  font-size: 40%;
+  font-size: 45%;
   /* width: 100vw; */
 }
 
@@ -112,7 +112,7 @@ section {
   background-size: cover;
 }
 .heading {
-  font-size: 5.2rem;
+  font-size: 5rem;
 }
 
 .overlay {
@@ -156,7 +156,7 @@ p {
 }
 
 .sub-head {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .contain {
