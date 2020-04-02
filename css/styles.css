@@ -44,6 +44,8 @@ html {
   text-align: center;
   text-decoration: none;
   font-size: 45%;
+  overflow-x: hidden;
+
   /* width: 100vw; */
 }
 
