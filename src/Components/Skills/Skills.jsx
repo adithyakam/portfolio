@@ -8,11 +8,12 @@ import { ReactComponent as Svg6 } from "../../assets/npm.svg";
 import { ReactComponent as Svg7 } from "../../assets/react.svg";
 import { ReactComponent as Svg8 } from "../../assets/js.svg";
 import { ReactComponent as Svg9 } from "../../assets/expressjs.svg";
+import "../Skills/skills.css";
 
 const Skills = () => {
   return (
-    <div className="container w-75">
-      <div className="container mt-5 center w-75">
+    <div className="container mx-auto w-75">
+      <div className="container mt-5 mx-auto  w-75">
         <h1>Skills</h1>
         <div class=" row row-cols-2 row-cols-sm-3 row-cols-md-3">
           <div class=" col my-2 ">
@@ -71,23 +72,23 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mx-auto container bg-warning">
         <h1>Experience</h1>
-        <div className="w-50 container">
+        <div className=" bg-success wid mx-auto">
           <div className="my-2 text-left">
             <h3>Program Analyst </h3>
             <h5>Cognizant</h5>
             <h5>2018 - present</h5>
           </div>
-          <div className="my-2 text-nowrap" style={{ width: "8rem" }}>
-            <p>
-              Iam working as Program Analyst in Cognizant for 1 and half yrsnow.
-              <br />
-              Inhere my job is to solve the customer related issues like
-              <br />
-              optimizing,updating ,resolving.
-            </p>
-          </div>
+        </div>
+        <div className="my-2 text-left bg-success mx-auto md-8 text-wrap wid ">
+          <p>
+            Iam working as Program Analyst in Cognizant for 1 and half yrsnow.
+            <br />
+            Inhere my job is to solve the customer related issues like
+            <br />
+            optimizing,updating ,resolving.
+          </p>
         </div>
       </div>
     </div>
