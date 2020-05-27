@@ -49,11 +49,11 @@ const Contact = () => {
           id="contact-form"
           name="contact"
           method="post"
-          // role="form"
-          // netlify-honeypot="bot"
-          // data-netlify="true"
-          // className="formContainer"
-          // netlify
+          role="form"
+          netlify-honeypot="bot"
+          data-netlify="true"
+          className="formContainer"
+          netlify
         >
           <div class="controls p-3">
             <input type="hidden" name="form-name" value="contact" />
@@ -141,6 +141,7 @@ const Contact = () => {
               </div>
               <div class="col-md-12">
                 <input
+                  name="submit"
                   type="submit"
                   class="btn btt btn-send"
                   value="Send message"
