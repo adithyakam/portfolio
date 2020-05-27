@@ -17,8 +17,8 @@ const Contact = () => {
             <p>
               Hey feel free to get in touch <br />
             </p>
-            <div className=" mt-2 mx-auto ">
-              <ul class="d-flex flex-row justify-content-center">
+            <div className=" mt-2  ">
+              <ul class="d-flex flex-row justify-content-center align-items-center">
                 <li className="mx-1 d-flex flex-column">
                   <a
                     href="https://www.linkedin.com/in/adithya-kamath-15d34545d/"
@@ -48,8 +48,9 @@ const Contact = () => {
         <form
           id="contact-form"
           method="post"
-          role="form"
-          netlify-honeypot="bot"
+          name="contact"
+          // role="form"
+          // netlify-honeypot="bot"
           data-netlify="true"
           className="formContainer"
           netlify
