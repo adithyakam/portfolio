@@ -1,31 +1,25 @@
 import React from "react";
 import { ReactComponent as Svg1 } from "../../assets/github2.svg";
 import { ReactComponent as Svg2 } from "../../assets/Linkedin2.svg";
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faTrashAlt,
-//   faLinkedinSquare,
-//   fagithub,
-// } from "@fortawesome/free-solid-svg-icons";
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="mainDiv w-75 mx-auto">
       <div>
-        <div class="container p-2 w-50">
-          <h2 class="heading">contact </h2>
+        <div class="container w-75">
+          <h2 class="pageTitle">contact </h2>
           <form
             id="contact-form"
             method="post"
             role="form"
             netlify-honeypot="bot"
             data-netlify="true"
+            className="formContainer m-4"
             netlify
           >
-            <div class="messages"></div>
-            <div class="controls">
-              <div class="row">
+            <div class="controls p-3">
+              {/* <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
                     <p style={{ visibility: "hidden" }}>
@@ -34,7 +28,7 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -119,7 +113,7 @@ const Contact = () => {
                 <div class="col-md-12">
                   <input
                     type="submit"
-                    class="btn btt btn-send bg-primary"
+                    class="btn btt btn-send"
                     value="Send message"
                   />
                 </div>
@@ -135,9 +129,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="container mx-auto ">
-        <h3>Youu can also find me in</h3>
-        <div className="container ">
+      <div className="container mx-auto mt-5">
+        <h3>You can also find me in</h3>
+        <div className="container mt-4 ">
           <ul class="d-flex flex-row justify-content-center">
             <li className="mx-1 d-flex flex-column">
               <a
