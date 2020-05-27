@@ -24,3 +24,23 @@ nav a span {
 a:visited . {
   color: #f1faee;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  nav a span {
+    font-weight: 1200;
+    font-size: 1.2rem;
+  }
+
+  .nav-item {
+    padding: 0.1rem;
+    margin: 0.1rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}

@@ -1,7 +1,12 @@
 .formContainer {
   background-color: #f1faee;
+  margin: 4rem;
 }
-
+.formContain {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .btn {
   background-color: #1d3557;
   border: 0;
@@ -15,4 +20,76 @@
   color: #1d3557;
   font-weight: 600;
   border: #1d3557 solid 2px;
+}
+
+.conSvg {
+  height: 30px;
+  width: 30px;
+}
+
+.con-P {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contactSVG {
+  height: 200px;
+  width: 300px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .formContainer {
+    background-color: #f1faee;
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+  .formContain {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    background-color: #1d3557;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .btn:hover {
+    background-color: #f1faee;
+    color: #1d3557;
+    font-weight: 600;
+    border: #1d3557 solid 2px;
+  }
+
+  .conSvg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .con-P {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  .contactSVG {
+    height: 200px;
+    width: 210px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+@media only screen and (min-width: 1224px) {
+  /* Styles */
 }
