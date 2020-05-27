@@ -50,10 +50,10 @@ const Contact = () => {
           name="contact"
           method="post"
           role="form"
-          netlify-honeypot="bot"
+          data-netlify-honeypot="bot"
           data-netlify="true"
           className="formContainer"
-          netlify
+          // netlify
         >
           <div class="controls p-3">
             <input type="hidden" name="form-name" value="contact" />
@@ -61,7 +61,7 @@ const Contact = () => {
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_name">Firstname *</label>
+                  <label htmlFor="form_name">Firstname *</label>
                   <input
                     id="form_name"
                     type="text"
@@ -76,7 +76,7 @@ const Contact = () => {
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_lastname">Lastname *</label>
+                  <label htmlFor="form_lastname">Lastname *</label>
                   <input
                     id="form_lastname"
                     type="text"
@@ -93,7 +93,7 @@ const Contact = () => {
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="form_email">Email *</label>
+                  <label htmlFor="form_email">Email *</label>
                   <input
                     id="form_email"
                     type="email"
@@ -110,7 +110,7 @@ const Contact = () => {
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="subject">Subject *</label>
+                  <label htmlFor="subject">Subject *</label>
                   <input
                     id="subject"
                     type="text"
@@ -126,12 +126,12 @@ const Contact = () => {
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="form_message">Message *</label>
+                  <label htmlFor="form_message">Message *</label>
                   <textarea
                     id="form_message"
                     name="message"
                     class="form-control imp"
-                    placeholder="Message for me *"
+                    placeholder="Message htmlFor me *"
                     rows="4"
                     required="required"
                     data-error="Please, leave us a message."
@@ -158,11 +158,11 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      {/* <form name="contact" netlify netlify-honeypot="bot-field" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
-      </form>
+      </form> */}
     </div>
   );
 };
