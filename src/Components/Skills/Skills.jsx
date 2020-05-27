@@ -12,83 +12,87 @@ import "../Skills/skills.css";
 
 const Skills = () => {
   return (
-    <div className="container mx-auto w-75">
-      <div className="container mt-5 mx-auto  w-75">
-        <h1>Skills</h1>
-        <div class=" row row-cols-2 row-cols-sm-3 row-cols-md-3">
-          <div class=" col my-2 ">
+    <div className="container mainDiv mx-auto w-75">
+      <div className="container skill-main">
+        <h1 className="pageTitle">Skills</h1>
+        <div class=" row row-cols-2 row-cols-sm-3 content row-cols-md-3">
+          <div class=" col my-1 ">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg1 />
+              <Svg1 className="logo" />
               <label>HTML</label>
             </div>
           </div>
-          <div class=" col my-2 ">
+          <div class=" col my-1 ">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg2 />
-              <label>HTML</label>
+              <Svg2 className="logo mx-1" />
+              <label>CSS</label>
             </div>
           </div>
-          <div class=" col my-2 ">
+          <div class=" col my-1 ">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg3 />
-              <label>HTML</label>
+              <Svg3 className="logo" />
+              <label>Github</label>
             </div>
           </div>
-          <div class=" col my-2 ">
+          <div class=" col my-1 ">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg4 />
-              <label>HTML</label>
-            </div>
-          </div>
-          <div class=" col my-2 ">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg5 />
-              <label>HTML</label>
-            </div>
-          </div>
-          <div class=" col my-2 ">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg6 />
-              <label>HTML</label>
-            </div>
-          </div>
-          <div class=" col my-2 ">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg7 />
-              <label>HTML</label>
-            </div>
-          </div>
-          <div class=" col my-2 ">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg8 />
-              <label>HTML</label>
-            </div>
-          </div>
-          <div class=" col my-2 ">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <Svg9 />
+              <Svg9 className="logo mx-2" />
               <label>ExprressJS</label>
+            </div>
+          </div>
+
+          <div class=" col my-1 ">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <Svg5 className="logo" />
+              <label>Node JS</label>
+            </div>
+          </div>
+          <div class=" col my-1 ">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <Svg6 className="logo" />
+              <label>NPM</label>
+            </div>
+          </div>
+          <div class=" col my-1 ">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <Svg4 className="logo" />
+              <label>Java</label>
+            </div>
+          </div>
+          <div class=" col my-1 ">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <Svg7 className="logo" />
+              <label>React JS</label>
+            </div>
+          </div>
+          <div class=" col my-1 ">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <Svg8 className="logo" />
+              <label>JavaScript</label>
             </div>
           </div>
         </div>
       </div>
-      <div className="mx-auto container bg-warning">
-        <h1>Experience</h1>
-        <div className=" bg-success wid mx-auto">
-          <div className="my-2 text-left">
-            <h3>Program Analyst </h3>
-            <h5>Cognizant</h5>
-            <h5>2018 - present</h5>
+      <div className=" container ">
+        <h1 className="pageTitle">Experience</h1>
+        <div className="content d-flex flex-row flex-wrap">
+          <div className="  wid mx-auto">
+            <div className="my-2 text-left">
+              <h3>Program Analyst </h3>
+              <h5 className="color-muted">Cognizant</h5>
+              <h5 className="color-muted">2018 - present</h5>
+            </div>
           </div>
-        </div>
-        <div className="my-2 text-left bg-success mx-auto md-8 text-wrap wid ">
-          <p>
-            Iam working as Program Analyst in Cognizant for 1 and half yrsnow.
-            <br />
-            Inhere my job is to solve the customer related issues like
-            <br />
-            optimizing,updating ,resolving.
-          </p>
+          <div className="my-2 text-left  content mx-auto  text-wrap wid ">
+            <p>
+              Iam working as Program Analyst in Cognizant for 1 and a half
+              years.
+              <br />
+              Inhere my job is to solve the customer related issues like
+              <br />
+              optimizing,updating ,resolving.
+            </p>
+          </div>
         </div>
       </div>
     </div>

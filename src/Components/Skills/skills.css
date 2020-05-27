@@ -1,3 +1,7 @@
-.wid {
-  width: 80%;
+.logo {
+  height: 80px;
+  width: 80px;
+}
+.color-muted {
+  color: rgb(92, 92, 92);
 }

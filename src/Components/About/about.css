@@ -2,3 +2,25 @@
   width: 200px;
   height: 150px;
 }
+
+.pageTitle {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mainDiv {
+  background-color: white;
+  padding: 2rem;
+}
+
+.para {
+  width: 60%;
+  text-align: left;
+  font-weight: 500;
+}
+
+.content {
+  margin: 2rem;
+  font-weight: 400;
+}

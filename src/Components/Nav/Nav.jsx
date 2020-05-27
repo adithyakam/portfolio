@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./nav.css";
 
 const Nav = () => {
   return (
-    <div className="navbar-light bg-light w-100">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light container w-75">
+    <div className="navbar navCol w-100">
+      <nav className="navbar navbar-expand-lg navbar-dark  navCol container w-75">
         <a className="navbar-brand" href="home">
-          Navbar
+          <span>Adithya</span>
         </a>
         <button
           className="navbar-toggler"

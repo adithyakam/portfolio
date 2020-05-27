@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  background-color: #a8dadc;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
 }

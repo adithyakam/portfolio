@@ -1,4 +1,13 @@
 import React from "react";
+import { ReactComponent as Svg1 } from "../../assets/github2.svg";
+import { ReactComponent as Svg2 } from "../../assets/Linkedin2.svg";
+
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faTrashAlt,
+//   faLinkedinSquare,
+//   fagithub,
+// } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -110,7 +119,7 @@ const Contact = () => {
                 <div class="col-md-12">
                   <input
                     type="submit"
-                    class="btn btt btn-send"
+                    class="btn btt btn-send bg-primary"
                     value="Send message"
                   />
                 </div>
@@ -118,8 +127,7 @@ const Contact = () => {
               <div class="row">
                 <div class="col-md-12">
                   <p class="text-muted">
-                    <strong>*</strong> These fields are required. Contact form
-                    template by
+                    <strong>*</strong> These fields are required
                   </p>
                 </div>
               </div>
@@ -127,8 +135,31 @@ const Contact = () => {
           </form>
         </div>
       </div>
-
-      <h1>Youu can find me in</h1>
+      <div className="container mx-auto ">
+        <h3>Youu can also find me in</h3>
+        <div className="container ">
+          <ul class="d-flex flex-row justify-content-center">
+            <li className="mx-1 d-flex flex-column">
+              <a
+                href="https://www.linkedin.com/in/adithya-kamath-15d34545d/"
+                target="blank"
+              >
+                <Svg2 />
+              </a>
+              <span>linkedin</span>
+            </li>
+            <li className="mx-1 d-flex flex-column">
+              <a
+                href="https://www.linkedin.com/in/adithya-kamath-15d34545d/"
+                target="blank"
+              >
+                <Svg1 />
+              </a>
+              <span>Github</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
