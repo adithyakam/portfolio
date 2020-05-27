@@ -15,6 +15,19 @@
   color: white;
 }
 
+.title {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.email {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #e63946;
+}
+
 .btn:hover {
   background-color: #f1faee;
   color: #1d3557;
@@ -23,8 +36,8 @@
 }
 
 .conSvg {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 .con-P {
@@ -34,11 +47,16 @@
 }
 
 .contactSVG {
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 500px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contact-title {
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+
   .formContainer {
     background-color: #f1faee;
     margin: 0rem;
@@ -71,18 +89,37 @@
   }
 
   .conSvg {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
   }
 
   .con-P {
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    margin-top: 1.5rem !important;
   }
 
   .contactSVG {
-    height: 200px;
-    width: 210px;
+    height: 150px;
+    width: 230px;
+  }
+
+  .lis {
+    margin-top: 2rem !important;
+    padding: 0;
+  }
+
+  .title {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .email {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    /* color: #e63946; */
   }
 }
 
