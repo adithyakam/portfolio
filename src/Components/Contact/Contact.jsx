@@ -47,13 +47,13 @@ const Contact = () => {
         <h3>fill the form and submit</h3>
         <form
           id="contact-form"
-          method="post"
           name="contact"
+          method="post"
           // role="form"
           // netlify-honeypot="bot"
-          data-netlify="true"
-          className="formContainer"
-          netlify
+          // data-netlify="true"
+          // className="formContainer"
+          // netlify
         >
           <div class="controls p-3">
             <div class="row">
