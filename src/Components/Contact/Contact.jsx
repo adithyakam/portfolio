@@ -53,9 +53,11 @@ const Contact = () => {
           // netlify-honeypot="bot"
           // data-netlify="true"
           // className="formContainer"
-          netlify
+          // netlify
         >
           <div class="controls p-3">
+            <input type="hidden" name="form-name" value="contact" />
+
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -155,6 +157,11 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
     </div>
   );
 };
