@@ -53,7 +53,7 @@ const Contact = () => {
           // netlify-honeypot="bot"
           // data-netlify="true"
           // className="formContainer"
-          // netlify
+          netlify
         >
           <div class="controls p-3">
             <div class="row">
