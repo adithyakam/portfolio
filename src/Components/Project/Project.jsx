@@ -8,6 +8,8 @@ import Img6 from "../../assets/col-generator.PNG";
 import Img7 from "../../assets/expenseAPp.PNG";
 import Img8 from "../../assets/colorgame.PNG";
 import Img9 from "../../assets/todo.PNG";
+import Img10 from "../../assets/CrownShopping.PNG";
+import Img11 from "../../assets/Spotify.PNG";
 
 import Reveal from "react-reveal/Zoom";
 import "./project.css";
@@ -18,6 +20,99 @@ const Project = () => {
       <h1 className="pageTitle ">Projects</h1>
       <div className="con">
         <Reveal effect="fadeInUp" className="content mt-3">
+          <div className="card mb-3">
+            <div className="row no-gutters">
+              <div className="col-md-4">
+                <img
+                  src={Img10}
+                  className="card-img"
+                  alt=""
+                  style={{ objectFit: "fill", height: "100%", width: "100%" }}
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Crown Shopping</h5>
+                  <p className="card-text">
+                    THis is Ecommerce project, which has login with firebase,
+                    Add too cart, then payment gateway with stripe API, this
+                    project uses React- Readux, context-API, Firebase for db &
+                    user Auth uses memoization for efficiency .
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">
+                      Created using React,Node
+                      ,Express,Redux,Context-API,Reselect,heroku
+                    </small>
+
+                    <div className="m mt-3">
+                      <a
+                        href="https://crwn-shoping.herokuapp.com/"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/adithyakam/Crown-Shoping"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card mb-3">
+            <div className="row no-gutters">
+              <div className="col-md-4">
+                <img
+                  src={Img11}
+                  className="card-img"
+                  alt=""
+                  style={{ objectFit: "fill", height: "100%", width: "100%" }}
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Spotify Clone App</h5>
+                  <p className="card-text">
+                    THis is an clone of my favorite music app. where it uses
+                    SPotify-API forsongs/playlist. It has
+                    play,pause,next,previous functionality of the song.This app
+                    uses context APi for state management.
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">
+                      Created using React,Spotify-API,context-API,Materialize-UI
+                    </small>
+
+                    <div className="m mt-3">
+                      <a
+                        href="https://spotify-cln.netlify.app/"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/adithyakam/spotify-clone"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="card mb-3">
             <div className="row no-gutters">
               <div className="col-md-4">

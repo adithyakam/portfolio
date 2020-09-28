@@ -2,6 +2,13 @@
   background-color: #f1faee;
   margin: 4rem;
 }
+.conSvg {
+  padding: 1px;
+}
+
+.d-flex span {
+  margin: 5px;
+}
 .formContain {
   width: 75%;
   margin-left: auto;

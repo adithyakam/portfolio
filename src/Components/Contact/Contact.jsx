@@ -34,10 +34,7 @@ const Contact = () => {
                   <span>linkedin</span>
                 </li>
                 <li className="d-flex flex-column">
-                  <a
-                    href="https://www.linkedin.com/in/adithya-kamath-15d34545d/"
-                    target="blank"
-                  >
+                  <a href="https://github.com/adithyakam" target="blank">
                     <Svg1 className="conSvg " />
                   </a>
                   <span>Github</span>
