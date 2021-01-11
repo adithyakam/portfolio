@@ -27,7 +27,7 @@ const About = () => {
           src={Img}
           class="img-fluid mt-auto mb-0"
           alt="Responsive image"
-          style={{ width: "500px", heigth: "400px" }}
+          style={{ width: "500px", heigth: "600px",marginTop:"5em" }}
         />
       </div>
     </div>

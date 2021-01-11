@@ -85,12 +85,16 @@ const Skills = () => {
           </div>
           <div className="my-2 text-left  content2 mx-auto  text-wrap wid ">
             <p>
-              Iam working as Program Analyst in Cognizant for 1 and a half
+              Iam working as Program Analyst in Cognizant for 2
               years.
               <br />
               Inhere my job is to solve the customer related issues like
               <br />
               optimizing,updating ,resolving.
+              <br/>
+              currently Iam looking to swtich my carrer to web /frontend/react development.
+              <br/>
+              where I have a passion for UI/UX.
             </p>
           </div>
         </div>
