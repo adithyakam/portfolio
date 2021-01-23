@@ -32,7 +32,7 @@ const Nav = () => {
               Skill
             </Link>
             <Link to="/project" className="nav-item nav-link ">
-              project
+              Project
             </Link>
             <Link to="/Contact" className="nav-item nav-link ">
               Contact
