@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className=" para p-2 align-right">
             <p>
-              Hey,Iam Adithya an UI/UX entusiast from India. <br />I have
+              Hey, Iam Adithya an UI/UX entusiast from India. <br />I have
               background on Java ,want to become an FULL-STACK / UI-UX Developer
               in near future. My hobbies include listening Music and watching
               football. Iam an good team player and colaborate with others
