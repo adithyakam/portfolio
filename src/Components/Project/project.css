@@ -35,6 +35,10 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card-img {
+    object-fit: contain !important;
+  }
+
   .con {
     margin: 0.5rem;
     margin-top: 1rem;

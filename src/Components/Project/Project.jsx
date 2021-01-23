@@ -25,10 +25,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img10}
-                  className="card-img"
-                  alt=""
+                  className="card-img "
+                  alt="crwn"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -72,10 +71,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img11}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="imgSpotify"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -118,10 +116,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img2}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="faceRecognition"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -163,8 +160,8 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img1}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="football"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
                 />
               </div>
@@ -207,10 +204,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img3}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="movies"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -254,10 +250,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img4}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="robotfriend"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -302,10 +297,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img5}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="chats app"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -350,10 +344,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img6}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="color generator"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -399,10 +392,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img7}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="expense  app"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -447,10 +439,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img8}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="color game"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">
@@ -498,10 +489,9 @@ const Project = () => {
               <div className="col-md-4">
                 <img
                   src={Img9}
-                  className="card-img"
-                  alt=""
+                  className="card-img img-fluid"
+                  alt="todo list"
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
-                  className="img-fluid"
                 />
               </div>
               <div className="col-md-8">

@@ -15,57 +15,57 @@ const Skills = () => {
     <div className="container mainDiv mx-auto w-75">
       <div className="container skill-main">
         <h1 className="pageTitle">Skills</h1>
-        <div class=" row mt-4 row-cols-2 row-cols-sm-3 content row-cols-md-3">
-          <div class=" col my-1">
+        <div className=" row mt-4 row-cols-2 row-cols-sm-3 content row-cols-md-3">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg1 className="logo" />
               <label>HTML</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg2 className="logo mx-1" />
               <label>CSS</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg3 className="logo" />
               <label>Github</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg9 className="logo mx-2" />
               <label>ExprressJS</label>
             </div>
           </div>
 
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg5 className="logo" />
               <label>Node JS</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg6 className="logo" />
               <label>NPM</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg4 className="logo" />
               <label>Java</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg7 className="logo" />
               <label>React JS</label>
             </div>
           </div>
-          <div class=" col my-1">
+          <div className=" col my-1">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <Svg8 className="logo" />
               <label>JavaScript</label>

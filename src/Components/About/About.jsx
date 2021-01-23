@@ -25,8 +25,8 @@ const About = () => {
         {/* <img src="../../assets/25496.jpg"/ > */}
         <img
           src={Img}
-          class="img-fluid mt-auto mb-0"
-          alt="Responsive image"
+          className="img-fluid mt-auto mb-0"
+          alt="Responsive"
           style={{ width: "500px", heigth: "600px",marginTop:"5em" }}
         />
       </div>

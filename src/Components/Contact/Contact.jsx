@@ -7,9 +7,9 @@ import { ReactComponent as Svg } from "../../assets/contact.svg";
 const Contact = () => {
   return (
     <div className="mainDiv w-75 mx-auto">
-      <h2 class="pageTitle contact-title">contact </h2>
+      <h2 className="pageTitle contact-title">contact </h2>
       <div className=" container">
-        <div class="row">
+        <div className="row">
           <div className="contactSVG col-md-12 col-sm-12 p-2 md-4">
             <Svg className="contactSVG " />
           </div>
