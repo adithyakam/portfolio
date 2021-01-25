@@ -8,7 +8,7 @@ import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
 
 class App extends Component {
-  render() {
+  render() { 
     return (
       <div className="App">
         <Nav />
