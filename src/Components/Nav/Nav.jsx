@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className="navbar navCol w-100">
       <nav className="navbar navbar-expand-lg navbar-dark  navCol container w-75">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" >
           <span>Adithya</span>
         </a>
         <button
