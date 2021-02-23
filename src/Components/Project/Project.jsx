@@ -10,6 +10,8 @@ import Img8 from "../../assets/colorgame.PNG";
 import Img9 from "../../assets/todo.PNG";
 import Img10 from "../../assets/CrownShopping.PNG";
 import Img11 from "../../assets/Spotify.PNG";
+import Img12 from "../../assets/Gmail.PNG";
+
 
 import Reveal from "react-reveal/Zoom";
 import "./project.css";
@@ -30,6 +32,7 @@ const Project = () => {
                   style={{ objectFit: "fill", height: "100%", width: "100%" }}
                 />
               </div>
+
               <div className="col-md-8">
                 <div className="card-body">
                   <h5 className="card-title">Crown Shopping</h5>
@@ -55,6 +58,50 @@ const Project = () => {
                       </a>
                       <a
                         href="https://github.com/adithyakam/Crown-Shoping"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card mb-3">
+            <div className="row no-gutters">
+              <div className="col-md-4">
+                <img
+                  src={Img12}
+                  className="card-img "
+                  alt="crwn"
+                  style={{ objectFit: "fill", height: "100%", width: "100%" }}
+                />
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">Gmail-Clone</h5>
+                  <p className="card-text">
+                    THis is Gmail CLone, which has login feature with firebase
+                    with the feature to send the mail it uses firebase db & AUTH.
+                    Also hosted in firebase.
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">
+                      Created using React,Redux,firebase,react-router
+                    </small>
+
+                    <div className="m mt-3">
+                      <a
+                        href="https://clone-1705f.firebaseapp.com/"
+                        className="btn btn-primary p-2 m-1"
+                        target="blank"
+                      >
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/adithyakam/Gmail-clone"
                         className="btn btn-primary p-2 m-1"
                         target="blank"
                       >
