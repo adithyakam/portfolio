@@ -83,7 +83,7 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">Gmail-Clone</h5>
                   <p className="card-text">
-                    THis is Gmail CLone, which has login feature with firebase
+                    THis is Gmail Clone, which has login feature with firebase
                     with the feature to send the mail it uses firebase db & AUTH.
                     Also hosted in firebase.
                   </p>
